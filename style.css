@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+.cabecalho a {
+    font-size-adjust: .9;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.container {
+    
+    justify-content: space-between;
+    text-align: center;
+}
+.imagem {
+    height: 300px;
+    width: 300px;
+}
+.rodape {
+    background-color: red;
+    height: 150px;
+}
+.rodape a {
+    font-size-adjust: 1.5;
+    color: white;
+}
+.contatos {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 25px;
+}
+
